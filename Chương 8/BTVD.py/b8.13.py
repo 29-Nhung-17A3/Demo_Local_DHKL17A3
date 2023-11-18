@@ -4,7 +4,6 @@
 # D = tích các số chia hết cho 3
 # E = tổng các cố nguyên tố nhỏ hơn hay bằng n
 # F = tổng chuỗi đan dấu
-import math
 n = int(input("nhập số N: "))
 def A(n):
     j = []
