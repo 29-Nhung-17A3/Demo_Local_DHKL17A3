@@ -1,0 +1,5 @@
+a, b, c, d = map(float, input("24, 12, 3, 11: ").split(','))
+max_number = max(a, b, c, d)
+min_number = min(a, b, c, d)
+print("Số lớn nhất là: {max_number}")
+print("số nhỏ nhất là: {min_number}")
