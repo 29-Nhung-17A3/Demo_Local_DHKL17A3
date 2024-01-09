@@ -1,0 +1,8 @@
+f = open("bai_tho.txt", "r+")
+a = f.read(12) 
+print('Nội dung 12 kí tự đầu tiên là: \n', a)
+b = f.tell() 
+print ('Vị trí hiện thời của con trỏ tập tin: ', b)
+f.seek(0) 
+c = f.read(12)
+print('Các ký tự đọc được sau khi về vị trí đâu tiên là: \n', c)
